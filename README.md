@@ -4,7 +4,7 @@ This project is a website designed to help Christian people and people intereste
 | [1 Year](1Year)        | 6 Months           | 3 Months  |
 
 You will be reading 3 chapters per day
-January 1
+January 1 <br />
 January 2
 January 3
 January 4
