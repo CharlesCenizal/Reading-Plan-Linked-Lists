@@ -16,61 +16,61 @@ int main(int argc, char * argv []){
   // Loops through the days of the year
   for(int i = 1; i < 366; i++){
       if(i <= 31)
-        printf("January %d\n",i);
+        printf("January %d<br />\n",i);
       if(i > 31 && i <= 59){
         temp = i;
         temp -= 31;
-        printf("February %d\n", temp);
+        printf("February %d<br />\n", temp);
       }
       if(i > 59 && i <= 90){
         temp = i;
         temp -= 59;
-        printf("March %d\n", temp);
+        printf("March %d<br />\n", temp);
       }
       if(i > 90 && i <= 120){
         temp = i;
         temp -= 90;
-        printf("April %d\n", temp);
+        printf("April %d<br />\n", temp);
       }
       if(i > 121 && i <= 152){
         temp = i;
         temp -= 121;
-        printf("May %d\n", temp);
+        printf("May %d<br />\n", temp);
       }
       if(i > 152 && i <= 182){
         temp = i;
         temp -= 152;
-        printf("June %d\n",temp);
+        printf("June %d<br />\n",temp);
       }
       if(i > 181 && i <= 212){
         temp = i;
         temp -= 181;
-        printf("July %d\n", temp);
+        printf("July %d<br />\n", temp);
       }
       if(i > 212 && i <= 243){
         temp = i;
         temp -= 212;
-        printf("August %d\n", temp);
+        printf("August %d<br />\n", temp);
       }
      if(i > 243 && i <= 273){
        temp = i;
        temp -= 243;
-       printf("September %d\n",temp);
+       printf("September %d<br />\n",temp);
      }
      if(i > 273 && i <= 304){
        temp = i;
        temp -= 273;
-       printf("October %d\n",temp);
+       printf("October %d<br />\n",temp);
      }
      if(i > 304 && i <= 334){
        temp = i;
        temp -= 304;
-       printf("November %d\n",temp);
+       printf("November %d<br />\n",temp);
      }
      if(i > 334 && i <= 365){
        temp = i;
        temp -= 334;
-       printf("December %d\n",temp);
+       printf("December %d<br />\n",temp);
      }
     }
 
