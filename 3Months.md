@@ -1,1 +1,1 @@
-# 6 months
+# 3 months
