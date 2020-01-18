@@ -4,369 +4,369 @@ This project is a website designed to help Christian people and people intereste
 | [1 Year](1Year)        | 6 Months           | 3 Months  |
 
 You will be reading 3 chapters per day
-January 1 <br />
-January 2
-January 3
-January 4
-January 5
-January 6
-January 7
-January 8
-January 9
-January 10
-January 11
-January 12
-January 13
-January 14
-January 15
-January 16
-January 17
-January 18
-January 19
-January 20
-January 21
-January 22
-January 23
-January 24
-January 25
-January 26
-January 27
-January 28
-January 29
-January 30
-January 31
-February 1
-February 2
-February 3
-February 4
-February 5
-February 6
-February 7
-February 8
-February 9
-February 10
-February 11
-February 12
-February 13
-February 14
-February 15
-February 16
-February 17
-February 18
-February 19
-February 20
-February 21
-February 22
-February 23
-February 24
-February 25
-February 26
-February 27
-February 28
-March 1
-March 2
-March 3
-March 4
-March 5
-March 6
-March 7
-March 8
-March 9
-March 10
-March 11
-March 12
-March 13
-March 14
-March 15
-March 16
-March 17
-March 18
-March 19
-March 20
-March 21
-March 22
-March 23
-March 24
-March 25
-March 26
-March 27
-March 28
-March 29
-March 30
-March 31
-April 1
-April 2
-April 3
-April 4
-April 5
-April 6
-April 7
-April 8
-April 9
-April 10
-April 11
-April 12
-April 13
-April 14
-April 15
-April 16
-April 17
-April 18
-April 19
-April 20
-April 21
-April 22
-April 23
-April 24
-April 25
-April 26
-April 27
-April 28
-April 29
-April 30
-May 1
-May 2
-May 3
-May 4
-May 5
-May 6
-May 7
-May 8
-May 9
-May 10
-May 11
-May 12
-May 13
-May 14
-May 15
-May 16
-May 17
-May 18
-May 19
-May 20
-May 21
-May 22
-May 23
-May 24
-May 25
-May 26
-May 27
-May 28
-May 29
-May 30
-May 31
-June 1
-June 2
-June 3
-June 4
-June 5
-June 6
-June 7
-June 8
-June 9
-June 10
-June 11
-June 12
-June 13
-June 14
-June 15
-June 16
-June 17
-June 18
-June 19
-June 20
-June 21
-June 22
-June 23
-June 24
-June 25
-June 26
-June 27
-June 28
-June 29
-June 30
-July 1
-July 2
-July 3
-July 4
-July 5
-July 6
-July 7
-July 8
-July 9
-July 10
-July 11
-July 12
-July 13
-July 14
-July 15
-July 16
-July 17
-July 18
-July 19
-July 20
-July 21
-July 22
-July 23
-July 24
-July 25
-July 26
-July 27
-July 28
-July 29
-July 30
-July 31
-August 1
-August 2
-August 3
-August 4
-August 5
-August 6
-August 7
-August 8
-August 9
-August 10
-August 11
-August 12
-August 13
-August 14
-August 15
-August 16
-August 17
-August 18
-August 19
-August 20
-August 21
-August 22
-August 23
-August 24
-August 25
-August 26
-August 27
-August 28
-August 29
-August 30
-August 31
-September 1
-September 2
-September 3
-September 4
-September 5
-September 6
-September 7
-September 8
-September 9
-September 10
-September 11
-September 12
-September 13
-September 14
-September 15
-September 16
-September 17
-September 18
-September 19
-September 20
-September 21
-September 22
-September 23
-September 24
-September 25
-September 26
-September 27
-September 28
-September 29
-September 30
-October 1
-October 2
-October 3
-October 4
-October 5
-October 6
-October 7
-October 8
-October 9
-October 10
-October 11
-October 12
-October 13
-October 14
-October 15
-October 16
-October 17
-October 18
-October 19
-October 20
-October 21
-October 22
-October 23
-October 24
-October 25
-October 26
-October 27
-October 28
-October 29
-October 30
-October 31
-November 1
-November 2
-November 3
-November 4
-November 5
-November 6
-November 7
-November 8
-November 9
-November 10
-November 11
-November 12
-November 13
-November 14
-November 15
-November 16
-November 17
-November 18
-November 19
-November 20
-November 21
-November 22
-November 23
-November 24
-November 25
-November 26
-November 27
-November 28
-November 29
-November 30
-December 1
-December 2
-December 3
-December 4
-December 5
-December 6
-December 7
-December 8
-December 9
-December 10
-December 11
-December 12
-December 13
-December 14
-December 15
-December 16
-December 17
-December 18
-December 19
-December 20
-December 21
-December 22
-December 23
-December 24
-December 25
-December 26
-December 27
-December 28
-December 29
-December 30
-December 31
+January 1<br />
+January 2<br />
+January 3<br />
+January 4<br />
+January 5<br />
+January 6<br />
+January 7<br />
+January 8<br />
+January 9<br />
+January 10<br />
+January 11<br />
+January 12<br />
+January 13<br />
+January 14<br />
+January 15<br />
+January 16<br />
+January 17<br />
+January 18<br />
+January 19<br />
+January 20<br />
+January 21<br />
+January 22<br />
+January 23<br />
+January 24<br />
+January 25<br />
+January 26<br />
+January 27<br />
+January 28<br />
+January 29<br />
+January 30<br />
+January 31<br />
+February 1<br />
+February 2<br />
+February 3<br />
+February 4<br />
+February 5<br />
+February 6<br />
+February 7<br />
+February 8<br />
+February 9<br />
+February 10<br />
+February 11<br />
+February 12<br />
+February 13<br />
+February 14<br />
+February 15<br />
+February 16<br />
+February 17<br />
+February 18<br />
+February 19<br />
+February 20<br />
+February 21<br />
+February 22<br />
+February 23<br />
+February 24<br />
+February 25<br />
+February 26<br />
+February 27<br />
+February 28<br />
+March 1<br />
+March 2<br />
+March 3<br />
+March 4<br />
+March 5<br />
+March 6<br />
+March 7<br />
+March 8<br />
+March 9<br />
+March 10<br />
+March 11<br />
+March 12<br />
+March 13<br />
+March 14<br />
+March 15<br />
+March 16<br />
+March 17<br />
+March 18<br />
+March 19<br />
+March 20<br />
+March 21<br />
+March 22<br />
+March 23<br />
+March 24<br />
+March 25<br />
+March 26<br />
+March 27<br />
+March 28<br />
+March 29<br />
+March 30<br />
+March 31<br />
+April 1<br />
+April 2<br />
+April 3<br />
+April 4<br />
+April 5<br />
+April 6<br />
+April 7<br />
+April 8<br />
+April 9<br />
+April 10<br />
+April 11<br />
+April 12<br />
+April 13<br />
+April 14<br />
+April 15<br />
+April 16<br />
+April 17<br />
+April 18<br />
+April 19<br />
+April 20<br />
+April 21<br />
+April 22<br />
+April 23<br />
+April 24<br />
+April 25<br />
+April 26<br />
+April 27<br />
+April 28<br />
+April 29<br />
+April 30<br />
+May 1<br />
+May 2<br />
+May 3<br />
+May 4<br />
+May 5<br />
+May 6<br />
+May 7<br />
+May 8<br />
+May 9<br />
+May 10<br />
+May 11<br />
+May 12<br />
+May 13<br />
+May 14<br />
+May 15<br />
+May 16<br />
+May 17<br />
+May 18<br />
+May 19<br />
+May 20<br />
+May 21<br />
+May 22<br />
+May 23<br />
+May 24<br />
+May 25<br />
+May 26<br />
+May 27<br />
+May 28<br />
+May 29<br />
+May 30<br />
+May 31<br />
+June 1<br />
+June 2<br />
+June 3<br />
+June 4<br />
+June 5<br />
+June 6<br />
+June 7<br />
+June 8<br />
+June 9<br />
+June 10<br />
+June 11<br />
+June 12<br />
+June 13<br />
+June 14<br />
+June 15<br />
+June 16<br />
+June 17<br />
+June 18<br />
+June 19<br />
+June 20<br />
+June 21<br />
+June 22<br />
+June 23<br />
+June 24<br />
+June 25<br />
+June 26<br />
+June 27<br />
+June 28<br />
+June 29<br />
+June 30<br />
+July 1<br />
+July 2<br />
+July 3<br />
+July 4<br />
+July 5<br />
+July 6<br />
+July 7<br />
+July 8<br />
+July 9<br />
+July 10<br />
+July 11<br />
+July 12<br />
+July 13<br />
+July 14<br />
+July 15<br />
+July 16<br />
+July 17<br />
+July 18<br />
+July 19<br />
+July 20<br />
+July 21<br />
+July 22<br />
+July 23<br />
+July 24<br />
+July 25<br />
+July 26<br />
+July 27<br />
+July 28<br />
+July 29<br />
+July 30<br />
+July 31<br />
+August 1<br />
+August 2<br />
+August 3<br />
+August 4<br />
+August 5<br />
+August 6<br />
+August 7<br />
+August 8<br />
+August 9<br />
+August 10<br />
+August 11<br />
+August 12<br />
+August 13<br />
+August 14<br />
+August 15<br />
+August 16<br />
+August 17<br />
+August 18<br />
+August 19<br />
+August 20<br />
+August 21<br />
+August 22<br />
+August 23<br />
+August 24<br />
+August 25<br />
+August 26<br />
+August 27<br />
+August 28<br />
+August 29<br />
+August 30<br />
+August 31<br />
+September 1<br />
+September 2<br />
+September 3<br />
+September 4<br />
+September 5<br />
+September 6<br />
+September 7<br />
+September 8<br />
+September 9<br />
+September 10<br />
+September 11<br />
+September 12<br />
+September 13<br />
+September 14<br />
+September 15<br />
+September 16<br />
+September 17<br />
+September 18<br />
+September 19<br />
+September 20<br />
+September 21<br />
+September 22<br />
+September 23<br />
+September 24<br />
+September 25<br />
+September 26<br />
+September 27<br />
+September 28<br />
+September 29<br />
+September 30<br />
+October 1<br />
+October 2<br />
+October 3<br />
+October 4<br />
+October 5<br />
+October 6<br />
+October 7<br />
+October 8<br />
+October 9<br />
+October 10<br />
+October 11<br />
+October 12<br />
+October 13<br />
+October 14<br />
+October 15<br />
+October 16<br />
+October 17<br />
+October 18<br />
+October 19<br />
+October 20<br />
+October 21<br />
+October 22<br />
+October 23<br />
+October 24<br />
+October 25<br />
+October 26<br />
+October 27<br />
+October 28<br />
+October 29<br />
+October 30<br />
+October 31<br />
+November 1<br />
+November 2<br />
+November 3<br />
+November 4<br />
+November 5<br />
+November 6<br />
+November 7<br />
+November 8<br />
+November 9<br />
+November 10<br />
+November 11<br />
+November 12<br />
+November 13<br />
+November 14<br />
+November 15<br />
+November 16<br />
+November 17<br />
+November 18<br />
+November 19<br />
+November 20<br />
+November 21<br />
+November 22<br />
+November 23<br />
+November 24<br />
+November 25<br />
+November 26<br />
+November 27<br />
+November 28<br />
+November 29<br />
+November 30<br />
+December 1<br />
+December 2<br />
+December 3<br />
+December 4<br />
+December 5<br />
+December 6<br />
+December 7<br />
+December 8<br />
+December 9<br />
+December 10<br />
+December 11<br />
+December 12<br />
+December 13<br />
+December 14<br />
+December 15<br />
+December 16<br />
+December 17<br />
+December 18<br />
+December 19<br />
+December 20<br />
+December 21<br />
+December 22<br />
+December 23<br />
+December 24<br />
+December 25<br />
+December 26<br />
+December 27<br />
+December 28<br />
+December 29<br />
+December 30<br />
+December 31<br />
 
