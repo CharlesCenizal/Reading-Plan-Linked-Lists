@@ -1,7 +1,7 @@
 # readthebibleinayear
 This project is a website designed to help Christian people and people interested read the bible in a year.
 # readthebibleinayear
-| [1 Year](1Year)        | 6 Months           | 3 Months  |
+| [1 Year](1Year)        | [6 Months](6Months)           | [3 Months](3Months)  |
 
 You will be reading 3 chapters per day
 January 1<br />
