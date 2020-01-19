@@ -6,6 +6,7 @@ Last login: Sun Jan 19 14:59:40 on ttys000
 
 stevenson-100-64-42-58:readthebibleinayear charles$ gcc 1year.c -o 1year && ./1year
 
+You will be reading about 7 chapters per day<br />
 January 1 - read chapters 1-8 of Genesis <br />
 January 2 - read chapters 8-15 of Genesis <br />
 January 3 - read chapters 15-22 of Genesis <br />
