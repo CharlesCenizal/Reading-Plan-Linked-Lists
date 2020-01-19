@@ -1,5 +1,5 @@
 # 1 year
-
+This project is a website designed to help Christian people and people interested read the bible in a year.
 # readthebibleinayear
 
 Last login: Sun Jan 19 02:02:17 on ttys000 stevenson-100-64-43-59:readthebibleinayear charles$ ./1year
