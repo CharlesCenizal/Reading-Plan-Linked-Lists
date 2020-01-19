@@ -373,5 +373,3 @@ December 31 - read chapters 19-22 of Revelation <br />
 
 stevenson-100-64-43-59:readthebibleinayear charles$ 
 
-
->>>>>>> df32ad23ceea528cb9c610167dfe30fd1cca095c
