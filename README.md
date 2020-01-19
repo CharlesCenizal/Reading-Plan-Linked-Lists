@@ -1,4 +1,4 @@
-# [readthebibleinayear](readthebibleinayear)
+# readthebibleinayear
 This project is a website designed to help Christian people and people interested read the bible in a year.
 # readthebibleinayear
 | [1 Year](1Year)        | [6 Months](6Months)           | [3 Months](3Months)  |
