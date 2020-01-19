@@ -1,5 +1,4 @@
 # 1 year
-# readthebibleinayear
 
 # readthebibleinayear
 
