@@ -2,9 +2,7 @@
 This project is a website designed to help Christian people and people interested read the bible in a year.
 # readthebibleinayear
 
-Last login: Sun Jan 19 14:59:40 on ttys000
-
-stevenson-100-64-42-58:readthebibleinayear charles$ gcc 1year.c -o 1year && ./1year
+Last login: Sun Jan 19 14:59:40 on ttys000 stevenson-100-64-42-58:readthebibleinayear charles$ gcc 1year.c -o 1year && ./1year
 
 You will be reading about 7 chapters per day<br />
 January 1 - read chapters 1-8 of Genesis <br />
