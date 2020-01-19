@@ -17,6 +17,8 @@ typedef struct bibleBook{
 // struct bibleBook all the time
 typedef bibleBook* Book;
 
+
+
 // newNode()
 // constructor of the Node type
 Book newBook(char* name, int chapters) {
@@ -73,19 +75,231 @@ void printBible(Bible B){
     Bib = Bib->next;
   }
 }
-/*
+
+
 void threeChaptersADay(Bible B){
+  int temp = 0;
+  // Chapters to read today
+  int ctrt = 1;
+  // Chapters to read today after
+  int ctrta = 1;
   Book Bib = B->head;
-  if(Bib->next == NULL){
-    return;
-  }
-  if(Bib->chapters == 0){
-    Bib = Bib->next;
+
+  // Loops through the days of the year
+  for(int i = 1; i < 366; i++){
+      if(i <= 31){
+
+        for(int j = 0; j < 3;j++){
+          Bib->chapters -= 1;
+          ctrta++;
+          if(Bib->chapters == 0){
+            Bib = Bib->next;
+            ctrta = 1;
+          }
+        }
+        printf("January %d - read chapters %d-%d of %s <br />\n",i,ctrt,ctrta,Bib->name);
+        ctrt = ctrta;
+      }
+      if(i > 31 && i <= 59){
+        temp = i;
+        temp -= 31;
+        for(int j = 0; j < 3;j++){
+          Bib->chapters -= 1;
+          ctrta++;
+          if(Bib->chapters == 0){
+            Bib = Bib->next;
+            ctrta = 1;
+          }
+        }
+        printf("February %d - read chapters %d-%d of %s <br />\n",temp,ctrt,ctrta,Bib->name);
+        ctrt = ctrta;
+      }
+      if(i > 59 && i <= 90){
+        temp = i;
+        temp -= 59;
+        for(int j = 0; j < 3;j++){
+          Bib->chapters -= 1;
+          ctrta++;
+          if(Bib->chapters == 0){
+            Bib = Bib->next;
+            ctrta = 1;
+          }
+        }
+        printf("March %d - read chapters %d-%d of %s <br />\n",temp,ctrt,ctrta,Bib->name);
+        ctrt = ctrta;
+
+      }
+      if(i > 90 && i <= 120){
+        temp = i;
+        temp -= 90;
+        for(int j = 0; j < 3;j++){
+          Bib->chapters -= 1;
+          ctrta++;
+          if(Bib->chapters == 0){
+            Bib = Bib->next;
+            ctrta = 1;
+          }
+        }
+        printf("April %d - read chapters %d-%d of %s <br />\n",temp,ctrt,ctrta,Bib->name);
+        ctrt = ctrta;
+      }
+      if(i > 121 && i <= 152){
+        temp = i;
+        temp -= 121;
+        for(int j = 0; j < 3;j++){
+          Bib->chapters -= 1;
+          ctrta++;
+          if(Bib->chapters == 0){
+            Bib = Bib->next;
+            ctrta = 1;
+          }
+        }
+        printf("May %d - read chapters %d-%d of %s <br />\n",temp,ctrt,ctrta,Bib->name);
+        ctrt = ctrta;
+      }
+      if(i > 152 && i <= 182){
+        temp = i;
+        temp -= 152;
+        if(i >163 ){
+          for(int j = 0; j < 7;j++){
+            Bib->chapters -= 1;
+            ctrta++;
+            if(Bib->chapters == 0){
+              Bib = Bib->next;
+              ctrta = 1;
+            }
+          }
+        }else {
+        for(int j = 0; j < 3;j++){
+          Bib->chapters -= 1;
+          ctrta++;
+          if(Bib->chapters == 0){
+            Bib = Bib->next;
+            ctrta = 1;
+          }
+        }
+
+      }
+        printf("June %d - read chapters %d-%d of %s <br />\n",temp,ctrt,ctrta,Bib->name);
+        ctrt = ctrta;
+      }
+      if(i > 181 && i <= 212){
+        temp = i;
+        temp -= 181;
+        if(i < 185){
+          for(int j = 0; j < 7;j++){
+            Bib->chapters -= 1;
+            ctrta++;
+            if(Bib->chapters == 0){
+              Bib = Bib->next;
+              ctrta = 1;
+            }
+          }
+        }else{
+          for(int j = 0; j < 3;j++){
+            Bib->chapters -= 1;
+            ctrta++;
+            if(Bib->chapters == 0){
+              Bib = Bib->next;
+              ctrta = 1;
+            }
+          }
+        }
+
+
+        printf("July %d - read chapters %d-%d of %s <br />\n",temp,ctrt,ctrta,Bib->name);
+        ctrt = ctrta;
+      }
+      if(i > 212 && i <= 243){
+        temp = i;
+        temp -= 212;
+        for(int j = 0; j < 3;j++){
+          Bib->chapters -= 1;
+          ctrta++;
+          if(Bib->chapters == 0){
+            Bib = Bib->next;
+            ctrta = 1;
+          }
+        }
+        printf("August %d - read chapters %d-%d of %s <br />\n",temp,ctrt,ctrta,Bib->name);
+        ctrt = ctrta;
+      }
+     if(i > 243 && i <= 273){
+       temp = i;
+       temp -= 243;
+       for(int j = 0; j < 3;j++){
+         Bib->chapters -= 1;
+         ctrta++;
+         if(Bib->chapters == 0){
+           Bib = Bib->next;
+           ctrta = 1;
+         }
+       }
+       printf("September %d - read chapters %d-%d of %s <br />\n",temp,ctrt,ctrta,Bib->name);
+       ctrt = ctrta;
+     }
+     if(i > 273 && i <= 304){
+       temp = i;
+       temp -= 273;
+       for(int j = 0; j < 3;j++){
+         Bib->chapters -= 1;
+         ctrta++;
+         if(Bib->chapters == 0){
+           Bib = Bib->next;
+           ctrta = 1;
+         }
+       }
+       printf("October %d - read chapters %d-%d of %s <br />\n",temp,ctrt,ctrta,Bib->name);
+       ctrt = ctrta;
+     }
+     if(i > 304 && i <= 334){
+       temp = i;
+       temp -= 304;
+       for(int j = 0; j < 3;j++){
+         Bib->chapters -= 1;
+         ctrta++;
+         if(Bib->chapters == 0){
+           Bib = Bib->next;
+           ctrta = 1;
+         }
+       }
+       printf("November %d - read chapters %d-%d of %s <br />\n",temp,ctrt,ctrta,Bib->name);
+       ctrt = ctrta;
+     }
+     if(i > 334 && i <= 365){
+       temp = i;
+       temp -= 334;
+       if(i >356 && i <= 361){
+         for(int j = 0; j < 4;j++){
+           Bib->chapters -= 1;
+           ctrta++;
+           if(Bib->chapters == 0){
+             Bib = Bib->next;
+             ctrta = 1;
+           }
+         }
+       }else{
+         for(int j = 0; j < 3;j++){
+           Bib->chapters -= 1;
+           ctrta++;
+           if(Bib->chapters == 0){
+             Bib = Bib->next;
+             ctrta = 1;
+           }
+         }
+       }
+
+       printf("December %d - read chapters %d-%d of %s <br />\n",temp,ctrt,ctrta,Bib->name);
+       ctrt = ctrta;
+
+     }
+    }
   }
 
 
-}
-*/
+
+
+
 
 int main(){
 
@@ -113,14 +327,8 @@ int main(){
                              31,12,8,66,52,5,48,12,14,3,9,1,4,7,3,3,3,2,14,4,28,16,24,
                             21,28,16,16,13,6,6,4,4,5,3,6,4,3,1,13,5,5,3,5,1,1,1,22};
 
-//n1 = createNewBook("Genesis",50);
 
 
-Book test = newBook("John",28);
-Book test2 = newBook("Acts",3232);
-test->next=test2;
-printf("%d\n",test->next->chapters);
-printf("hello world\n");
 
 Bible ESV = newBible();
 char* n;
@@ -130,7 +338,9 @@ for(int i = 0; i < 66; i ++){
   insert(ESV,books[i],chaptersPerBook[i]);
 }
 
-printBible(ESV);
+//printBible(ESV);
+printf("You will be reading %d chapters per day<br />\n",chaptersPerDay);
+threeChaptersADay(ESV);
 
 
 // Checking to see I entered the correct books and chapters before i add them to my
