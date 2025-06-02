@@ -55,3 +55,19 @@ button:hover {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(10, 29, 93, 0.2); /* subtle dark blue shadow */
 }
+
+a.code-link {
+  display: inline-block;
+  font-size: 1.5rem; /* bigger font */
+  font-weight: bold;
+  color: white;
+  background-color: #1a4b84; /* dark blue */
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+a.code-link:hover {
+  background-color: #14517c; /* darker blue on hover */
+}
