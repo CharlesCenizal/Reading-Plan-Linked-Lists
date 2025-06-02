@@ -1,73 +1,129 @@
 /* style.css */
-
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #d9f7be; /* light lime green */
-  color: #0a1d5d; /* dark blue text */
+  background-color: #f0f9f0; /* Very light green background */
+  color: #0a1d5d; /* Dark blue text */
   line-height: 1.6;
-  margin: 20px;
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
-}
-
-h1, h2, h3 {
-  color: #0a1d5d; /* dark blue for headers */
-}
-
-a {
-  color: #1e3a8a; /* medium dark blue for links */
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-code, pre {
-  background: #b7d68d; /* slightly darker lime green for code background */
-  padding: 5px 10px;
-  border-radius: 4px;
-  font-family: 'Courier New', Courier, monospace;
-  color: #0a1d5d; /* dark blue code text */
-}
-
-button {
-  background-color: #1e3a8a; /* dark blue button */
-  border: none;
-  color: white;
-  padding: 10px 15px;
-  text-align: center;
-  font-size: 1rem;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-button:hover {
-  background-color: #162c6c; /* darker blue on hover */
+  margin: 0;
+  padding: 20px;
 }
 
 .container {
-  background: #e6f2d9; /* very light lime green card background */
-  padding: 20px 30px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(10, 29, 93, 0.2); /* subtle dark blue shadow */
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(10, 29, 93, 0.1);
 }
 
+h1 {
+  color: #1a4b84; /* Dark blue */
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #b7d68d; /* Light green */
+  padding-bottom: 10px;
+}
+
+p {
+  color: #1a4b84;
+  margin-bottom: 20px;
+}
+
+/* Tabs styling */
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 2px solid #b7d68d;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  padding: 10px 15px;
+  cursor: pointer;
+  background: #e6f2d9; /* Light green */
+  border: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-right: 5px;
+  font-weight: bold;
+  color: #1a4b84; /* Dark blue */
+  transition: all 0.3s ease;
+}
+
+.tab-button:hover {
+  background: #d0e6c3; /* Slightly darker green */
+}
+
+.tab-button[aria-selected="true"] {
+  background: white;
+  color: #0a1d5d; /* Darker blue */
+  border-bottom: 2px solid white;
+  position: relative;
+  bottom: -2px;
+}
+
+.tab-panel {
+  display: none;
+  padding: 20px;
+  background: white;
+  border-radius: 0 5px 5px 5px;
+}
+
+.tab-panel[aria-hidden="false"] {
+  display: block;
+}
+
+.reading-plan-content {
+  background: #f8fcf5; /* Very light green */
+  padding: 15px;
+  border-radius: 5px;
+  border-left: 4px solid #b7d68d;
+}
+
+.reading-plan {
+  white-space: pre-wrap;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9em;
+  line-height: 1.5;
+  color: #0a1d5d;
+  margin: 0;
+  overflow-x: auto;
+}
+
+/* Code link button */
 a.code-link {
   display: inline-block;
-  font-size: 1.5rem; /* bigger font */
+  font-size: 1.1rem;
   font-weight: bold;
   color: white;
-  background-color: #1a4b84; /* dark blue */
-  padding: 10px 20px;
+  background-color: #1a4b84;
+  padding: 12px 25px;
   border-radius: 6px;
   text-decoration: none;
-  margin-top: 10px;
+  margin: 20px 0;
+  transition: background-color 0.3s ease;
 }
 
 a.code-link:hover {
-  background-color: #14517c; /* darker blue on hover */
+  background-color: #0a1d5d;
+  text-decoration: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .tabs {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 5px;
+  }
+  
+  .tab-button {
+    padding: 8px 12px;
+    font-size: 0.9em;
+  }
+  
+  .container {
+    padding: 15px;
+  }
 }
