@@ -17,7 +17,7 @@ h1, h2, h3 {
 }
 
 a {
-  color: #1e3a8a; /* a medium dark blue for links */
+  color: #1e3a8a; /* medium dark blue for links */
   text-decoration: none;
 }
 
@@ -26,7 +26,7 @@ a:hover {
 }
 
 code, pre {
-  background: #b7d68d; /* a slightly darker lime green for code background */
+  background: #b7d68d; /* slightly darker lime green for code background */
   padding: 5px 10px;
   border-radius: 4px;
   font-family: 'Courier New', Courier, monospace;
