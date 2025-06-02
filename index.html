@@ -5,76 +5,137 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Bible Reading Plan Output</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Basic styles for tabs */
+    .tabs {
+      display: flex;
+      flex-wrap: wrap;
+      border-bottom: 2px solid #ccc;
+      margin-bottom: 1em;
+    }
+    .tab-button {
+      padding: 0.5em 1em;
+      cursor: pointer;
+      background: #f1f1f1;
+      border: none;
+      border-top-left-radius: 4px;
+      border-top-right-radius: 4px;
+      margin-right: 0.2em;
+      font-weight: bold;
+    }
+    .tab-button[aria-selected="true"] {
+      background: white;
+      border-bottom: 2px solid white;
+    }
+    .tab-panel {
+      display: none;
+      border: 1px solid #ccc;
+      padding: 1em;
+      background: white;
+      border-radius: 0 4px 4px 4px;
+    }
+    .tab-panel[aria-hidden="false"] {
+      display: block;
+    }
+    pre.reading-plan {
+      white-space: pre-wrap;
+      font-family: monospace, monospace;
+      font-size: 0.9em;
+    }
+  </style>
 </head>
 <body>
   <main>
+    <h1>Bible Reading Plan Output</h1>
     <h1>Bible Reading Plan Output</h1>
     <p>Below is the output of my C program:</p>
     <p>The goal of this program was to create a reading plan using linked lists.</p>
     <a href="code.html" class="code-link" aria-label="View all code files">📂 View All Code Files</a>
 
     <section class="reading-plan-container" aria-label="Bible reading plan output">
-      <pre class="reading-plan">
-You will be reading about 3 chapters per day
-January 1 - read chapters 1-4 of  Genesis <br />
-January 2 - read chapters 4-7 of  Genesis <br />
-January 3 - read chapters 7-10 of  Genesis <br />
-January 4 - read chapters 10-13 of  Genesis <br />
-January 5 - read chapters 13-16 of  Genesis <br />
-January 6 - read chapters 16-19 of  Genesis <br />
-January 7 - read chapters 19-22 of  Genesis <br />
-January 8 - read chapters 22-25 of  Genesis <br />
-January 9 - read chapters 25-28 of  Genesis <br />
-January 10 - read chapters 28-31 of  Genesis <br />
-January 11 - read chapters 31-34 of  Genesis <br />
-January 12 - read chapters 34-37 of  Genesis <br />
-January 13 - read chapters 37-40 of  Genesis <br />
-January 14 - read chapters 40-43 of  Genesis <br />
-January 15 - read chapters 43-46 of  Genesis <br />
-January 16 - read chapters 46-49 of  Genesis <br />
-January 17 - read chapters 49-2 of Genesis-Exodus <br />
-January 18 - read chapters 2-5 of  Exodus <br />
-January 19 - read chapters 5-8 of  Exodus <br />
-January 20 - read chapters 8-11 of  Exodus <br />
-January 21 - read chapters 11-14 of  Exodus <br />
-January 22 - read chapters 14-17 of  Exodus <br />
-January 23 - read chapters 17-20 of  Exodus <br />
-January 24 - read chapters 20-23 of  Exodus <br />
-January 25 - read chapters 23-26 of  Exodus <br />
-January 26 - read chapters 26-29 of  Exodus <br />
-January 27 - read chapters 29-32 of  Exodus <br />
-January 28 - read chapters 32-35 of  Exodus <br />
-January 29 - read chapters 35-38 of  Exodus <br />
-January 30 - read chapters 38-1 of Exodus-Leviticus <br />
-January 31 - read chapters 1-4 of  Leviticus <br />
-February 1 - read chapters 4-7 of  Leviticus <br />
-February 2 - read chapters 7-10 of  Leviticus <br />
-February 3 - read chapters 10-13 of  Leviticus <br />
-February 4 - read chapters 13-16 of  Leviticus <br />
-February 5 - read chapters 16-19 of  Leviticus <br />
-February 6 - read chapters 19-22 of  Leviticus <br />
-February 7 - read chapters 22-25 of  Leviticus <br />
-February 8 - read chapters 25-1 of Leviticus-Numbers <br />
-February 9 - read chapters 1-4 of  Numbers <br />
-February 10 - read chapters 4-7 of  Numbers <br />
-February 11 - read chapters 7-10 of  Numbers <br />
-February 12 - read chapters 10-13 of  Numbers <br />
-February 13 - read chapters 13-16 of  Numbers <br />
-February 14 - read chapters 16-19 of  Numbers <br />
-February 15 - read chapters 19-22 of  Numbers <br />
-February 16 - read chapters 22-25 of  Numbers <br />
-February 17 - read chapters 25-28 of  Numbers <br />
-February 18 - read chapters 28-31 of  Numbers <br />
-February 19 - read chapters 31-34 of  Numbers <br />
-February 20 - read chapters 34-1 of Numbers-Deuteronomy <br />
-February 21 - read chapters 1-4 of  Deuteronomy <br />
-February 22 - read chapters 4-7 of  Deuteronomy <br />
-February 23 - read chapters 7-10 of  Deuteronomy <br />
-February 24 - read chapters 10-13 of  Deuteronomy <br />
-February 25 - read chapters 13-16 of  Deuteronomy <br />
-February 26 - read chapters 16-19 of  Deuteronomy <br />
-February 27 - read chapters 19-22 of  Deuteronomy <br />
-February 28 - read chapters 22-25 of  Deuteronomy <br />
+
+      <div role="tablist" aria-label="Bible reading plan months" class="tabs">
+        <button role="tab" aria-selected="true" aria-controls="jan" id="tab-jan" tabindex="0" class="tab-button">January</button>
+        <button role="tab" aria-selected="false" aria-controls="feb" id="tab-feb" tabindex="-1" class="tab-button">February</button>
+        <button role="tab" aria-selected="false" aria-controls="mar" id="tab-mar" tabindex="-1" class="tab-button">March</button>
+        <button role="tab" aria-selected="false" aria-controls="apr" id="tab-apr" tabindex="-1" class="tab-button">April</button>
+        <button role="tab" aria-selected="false" aria-controls="may" id="tab-may" tabindex="-1" class="tab-button">May</button>
+        <button role="tab" aria-selected="false" aria-controls="jun" id="tab-jun" tabindex="-1" class="tab-button">June</button>
+        <button role="tab" aria-selected="false" aria-controls="jul" id="tab-jul" tabindex="-1" class="tab-button">July</button>
+        <button role="tab" aria-selected="false" aria-controls="aug" id="tab-aug" tabindex="-1" class="tab-button">August</button>
+        <button role="tab" aria-selected="false" aria-controls="sep" id="tab-sep" tabindex="-1" class="tab-button">September</button>
+        <button role="tab" aria-selected="false" aria-controls="oct" id="tab-oct" tabindex="-1" class="tab-button">October</button>
+        <!-- Add more months if needed -->
+      </div>
+
+      <div tabindex="0" role="tabpanel" id="jan" aria-labelledby="tab-jan" aria-hidden="false" class="tab-panel">
+        <pre class="reading-plan">
+January 1 - read chapters 1-4 of  Genesis
+January 2 - read chapters 4-7 of  Genesis
+January 3 - read chapters 7-10 of  Genesis
+January 4 - read chapters 10-13 of  Genesis
+January 5 - read chapters 13-16 of  Genesis
+January 6 - read chapters 16-19 of  Genesis
+January 7 - read chapters 19-22 of  Genesis
+January 8 - read chapters 22-25 of  Genesis
+January 9 - read chapters 25-28 of  Genesis
+January 10 - read chapters 28-31 of  Genesis
+January 11 - read chapters 31-34 of  Genesis
+January 12 - read chapters 34-37 of  Genesis
+January 13 - read chapters 37-40 of  Genesis
+January 14 - read chapters 40-43 of  Genesis
+January 15 - read chapters 43-46 of  Genesis
+January 16 - read chapters 46-49 of  Genesis
+January 17 - read chapters 49-2 of Genesis-Exodus
+January 18 - read chapters 2-5 of  Exodus
+January 19 - read chapters 5-8 of  Exodus
+January 20 - read chapters 8-11 of  Exodus
+January 21 - read chapters 11-14 of  Exodus
+January 22 - read chapters 14-17 of  Exodus
+January 23 - read chapters 17-20 of  Exodus
+January 24 - read chapters 20-23 of  Exodus
+January 25 - read chapters 23-26 of  Exodus
+January 26 - read chapters 26-29 of  Exodus
+January 27 - read chapters 29-32 of  Exodus
+January 28 - read chapters 32-35 of  Exodus
+January 29 - read chapters 35-38 of  Exodus
+January 30 - read chapters 38-1 of Exodus-Leviticus
+January 31 - read chapters 1-4 of  Leviticus
+        </pre>
+      </div>
+
+      <div tabindex="0" role="tabpanel" id="feb" aria-labelledby="tab-feb" aria-hidden="true" class="tab-panel">
+        <pre class="reading-plan">
+February 1 - read chapters 4-7 of  Leviticus
+February 2 - read chapters 7-10 of  Leviticus
+February 3 - read chapters 10-13 of  Leviticus
+February 4 - read chapters 13-16 of  Leviticus
+February 5 - read chapters 16-19 of  Leviticus
+February 6 - read chapters 19-22 of  Leviticus
+February 7 - read chapters 22-25 of  Leviticus
+February 8 - read chapters 25-1 of Leviticus-Numbers
+February 9 - read chapters 1-4 of  Numbers
+February 10 - read chapters 4-7 of  Numbers
+February 11 - read chapters 7-10 of  Numbers
+February 12 - read chapters 10-13 of  Numbers
+February 13 - read chapters 13-16 of  Numbers
+February 14 - read chapters 16-19 of  Numbers
+February 15 - read chapters 19-22 of  Numbers
+February 16 - read chapters 22-25 of  Numbers
+February 17 - read chapters 25-28 of  Numbers
+February 18 - read chapters 28-31 of  Numbers
+February 19 - read chapters 31-34 of  Numbers
+February 20 - read chapters 34-1 of Numbers-Deuteronomy
+February 21 - read chapters 1-4 of  Deuteronomy
+February 22 - read chapters 4-7 of  Deuteronomy
+February 23 - read chapters 7-10 of  Deuteronomy
+February 24 - read chapters 10-13 of  Deuteronomy
+February 25 - read chapters 13-16 of  Deuteronomy
+February 26 - read chapters 16-19 of  Deuteronomy
+February 27 - read chapters 19-22 of  Deuteronomy
+February 28 - read chapters 22-25 of  Deuteronomy
+        </pre>
+      </div>
 March 1 - read chapters 25-28 of  Deuteronomy <br />
 March 2 - read chapters 28-31 of  Deuteronomy <br />
 March 3 - read chapters 31-34 of  Deuteronomy <br />
