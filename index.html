@@ -448,5 +448,46 @@ December 31 - read chapters 19-22 of  Revelation <br />
       </pre>
     </section>
   </main>
+<script>
+  // Select all tab buttons and panels
+  const tabs = document.querySelectorAll('.tab-button');
+  const panels = document.querySelectorAll('.tab-panel');
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      // Deselect all tabs and hide all panels
+      tabs.forEach(t => {
+        t.setAttribute('aria-selected', 'false');
+        t.setAttribute('tabindex', '-1');
+      });
+      panels.forEach(p => p.setAttribute('aria-hidden', 'true'));
+
+      // Select clicked tab and show corresponding panel
+      tab.setAttribute('aria-selected', 'true');
+      tab.setAttribute('tabindex', '0');
+      const panelId = tab.getAttribute('aria-controls');
+      document.getElementById(panelId).setAttribute('aria-hidden', 'false');
+      document.getElementById(panelId).focus();
+    });
+
+    tab.addEventListener('keydown', e => {
+      let index = Array.prototype.indexOf.call(tabs, e.target);
+      // Left or Up arrow -> previous tab
+      if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+        e.preventDefault();
+        const prevIndex = (index - 1 + tabs.length) % tabs.length;
+        tabs[prevIndex].focus();
+        tabs[prevIndex].click();
+      }
+      // Right or Down arrow -> next tab
+      else if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+        e.preventDefault();
+        const nextIndex = (index + 1) % tabs.length;
+        tabs[nextIndex].focus();
+        tabs[nextIndex].click();
+      }
+    });
+  });
+</script>
 </body>
 </html>
