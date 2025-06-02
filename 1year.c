@@ -473,24 +473,24 @@ Bible oneYear = newBible();
 for(int i = 0; i < 66; i ++){
   insert(oneYear,books[i],chaptersPerBook[i]);
 }
-//readDaily(oneYear,365,3);
-
-printf("You will be reading about 7 chapters per day<br />\n");
+readDaily(oneYear,365,3);
+/*
+//printf("You will be reading about 7 chapters per day<br />\n");
 Bible sixMonths = newBible();
 for(int i = 0; i < 66; i ++)
 {
   insert(sixMonths,books[i],chaptersPerBook[i]);
 }
-readDaily(sixMonths,180,7);
+//readDaily(sixMonths,180,7);
 
-printf("You will be reading about 14 chapters per day<br />\n");
+//printf("You will be reading about 14 chapters per day<br />\n");
 Bible threeMonths = newBible();
 for(int i = 0; i < 66; i ++)
 {
   insert(threeMonths,books[i],chaptersPerBook[i]);
 }
 //readDaily(threeMonths,90,14);
-
+*/
 
 
 
