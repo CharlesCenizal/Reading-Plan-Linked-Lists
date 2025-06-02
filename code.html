@@ -33,8 +33,6 @@ typedef struct bibleBook{
 // struct bibleBook all the time
 typedef bibleBook* Book;
 
-
-
 // newNode()
 // constructor of the Node type
 Book newBook(char* name, int chapters) {
@@ -311,7 +309,6 @@ void readDaily(Bible B,int deadline,int pace){
           }
         }
 
-
         printf("July %d - read chapters %d-%d of %s%c%s <br />\n",temp,ctrt,ctrta,add,dash,Bib->name);
         ctrt = ctrta;
         add = "";
@@ -454,15 +451,7 @@ void readDaily(Bible B,int deadline,int pace){
     }
   }
 
-
-
-
-
-
 int main(){
-
-
-
 
   char * books[] = {"Genesis","Exodus","Leviticus","Numbers","Deuteronomy","Joshua",
                     "Judges", "Ruth","1 Samuel","2 Samuel","1 Kings","2 Kings","1 Chronicles",
@@ -507,10 +496,6 @@ for(int i = 0; i < 66; i ++)
 }
 //readDaily(threeMonths,90,14);
 */
-
-
-
-
       return EXIT_SUCCESS;
 }
   </code></pre>
@@ -519,7 +504,35 @@ for(int i = 0; i < 66; i ++)
   <pre><code class="language-markdown">
 /* Paste your README.md content here */
 # My Project
+# 📖 Bible Reading Plan Generator
 
+This is a C project that generates a one-year Bible reading plan using linked lists. The program outputs a structured schedule to the terminal and saves it to a text file. The output is also displayed via a GitHub Pages site with simple HTML and CSS.
+
+> 💡 This project was built with help from Large Language Models (LLMs), including ChatGPT, to assist with code, Git workflows, and website setup.
+
+---
+
+## 🔧 How to Run the Program (Windows)
+
+### 🧰 Requirements:
+- A C compiler like **GCC** (MinGW recommended for Windows).
+- Command Prompt access.
+
+### 🛠 Instructions:
+
+1. Open Command Prompt and navigate to the project directory:
+   ```cmd
+   cd C:\Users\charles\ucscGit\Reading-Plan-Linked-Lists
+
+2.Compile the program using GCC:
+    gcc 1year.c -o ReadingPlan.exe
+
+3.Run the program:
+
+    ReadingPlan.exe
+4.The program will:
+    Print the reading plan to the terminal.
+    
 This is my reading plan linked lists project.
   </code></pre>
 
